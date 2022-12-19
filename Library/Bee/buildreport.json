@@ -1,0 +1,19 @@
+{
+"instructions_readme": "1) Open Chrome, 2) go to chrome://tracing, 3) click Load, 4) navigate to this file.",
+
+"traceEvents":[
+{ "pid": "Unity", "ph":"M", "name": "process_name", "args": {"name": "Unity"} },
+{ "pid": "Unity", "ph":"M", "name": "process_sort_index", "args": {"sort_index": -100} },
+{ "pid": "Unity", "tid": 1, "ph":"M", "name": "thread_name", "args": {"name": ""} },
+{ "pid": "Unity", "tid": 1,"ts": 1.67147294654701E+15,"dur": 15294801, "ph":"X", "name": "Build player"},
+{ "pid": "Unity", "tid": 1,"ts": 1.67147294707128E+15,"dur": 14495380, "ph":"X", "name": "Preprocess Player"},
+{}
+
+],
+"meta_datetime": "12/19/2022 20:02:41",
+"meta_command_line": "D:\\soft\\unityeditor\\2021.3.11f1\\Editor\\Unity.exe -projectpath D:\\studying4\\Unity_games_development\\GameProgLab2IV-92 -useHub -hubIPC -cloudEnvironment production -licensingIpc LicenseClient-User -hubSessionId 33ae9dd0-7fa0-11ed-b9c9-4dee01e7245a -accessToken 9hQbL2mJZbK_Dq4Llsw1yj_DDWePY_JuMCXkdbiZ9Uk007f",
+"meta_command_line_args": "D:\\soft\\unityeditor\\2021.3.11f1\\Editor\\Unity.exe -projectpath D:\\studying4\\Unity_games_development\\GameProgLab2IV-92 -useHub -hubIPC -cloudEnvironment production -licensingIpc LicenseClient-User -hubSessionId 33ae9dd0-7fa0-11ed-b9c9-4dee01e7245a -accessToken 9hQbL2mJZbK_Dq4Llsw1yj_DDWePY_JuMCXkdbiZ9Uk007f",
+"meta_user_name": "User",
+"meta_os_version": "Microsoft Windows NT 10.0.19044.0",
+"meta_cpu_count": "2"
+}
